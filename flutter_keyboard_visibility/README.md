@@ -10,6 +10,17 @@ Web support is an open issue [here](https://github.com/MisterJimson/flutter_keyb
 
 ## Install
 [Install the package](https://pub.dev/packages/flutter_keyboard_visibility/install)
+
+### Using this repository from Git
+When depending on the plugin directly from Git, specify the `path` to the
+`flutter_keyboard_visibility` package:
+
+```yaml
+flutter_keyboard_visibility:
+  git:
+    url: https://github.com/EshwarSatrasala/flutter_keyboard_visibility.git
+    path: flutter_keyboard_visibility
+```
 ## Usage: React to Keyboard Visibility Changes
 ### Option 1: Within your `Widget` tree using a builder
 Build your Widget tree based on whether or not the keyboard is visible by using `KeyboardVisibilityBuilder`.
